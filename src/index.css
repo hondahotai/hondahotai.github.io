@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Press+Start+2P&family=VT323&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  /* list-style: none; */
+  outline: none;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}

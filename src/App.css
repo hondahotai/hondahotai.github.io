@@ -1,0 +1,92 @@
+body {
+  /* background: #000; */
+  overflow: hidden;
+  /* color: #FFF; */
+}
+.container {
+  display: flex;
+}
+
+.left-section {
+  background-image: url('https://i.pinimg.com/originals/ff/6d/e2/ff6de2211ecf63e836d36ad4b9537209.gif');
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  position: relative;
+  height: 100vh;
+  z-index: 1000;
+}
+
+
+.left-section img {
+}
+
+.right-section {
+  width: 60%;
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+}
+
+h1 {
+  /* font-family: 'Press Start 2P', cursive; */
+  font-size: 6.3rem;
+  text-shadow: 2px 2px 0 #000; 
+  width: 100%;
+  padding-bottom: 20px;
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+h2 {
+  font-size: 20px;
+  padding-bottom: 29px;
+}
+h3 {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.skills-section {
+  padding-bottom: 10px;
+  li {
+    font-size: 15px;
+  }
+}
+
+.role {
+  font-size: 20px;
+  width: 650px;
+  padding-bottom: 20px;
+}
+
+::selection {
+  background-color: rgb(255, 255, 255);
+  color: pink; 
+}
+
+.contacts {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+.contacts a {
+  text-decoration: none;
+  color: pink;
+  font-size: 30px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.contacts a:hover {
+  color: #fff;
+  background-color: black;
+  text-shadow: 0 0 8px pink;
+}
