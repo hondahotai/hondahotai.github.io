@@ -1,5 +1,5 @@
-import './App.css'
-import './app.sass';
+import './app.scss'
+import './main.sass';
 
 
 
